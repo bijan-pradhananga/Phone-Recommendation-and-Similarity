@@ -14,21 +14,12 @@ ENV/
 .env/
 .venv/
 
-# Ignore IDE-specific files
-.vscode/
-.idea/
-*.swp
-*.swo
+
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore Python distribution / packaging files
-*.egg-info/
-dist/
-build/
-*.egg
-*.whl
+
 
 # Ignore log files
 *.log
@@ -37,11 +28,6 @@ build/
 .pytest_cache/
 .mypy_cache/
 
-# Ignore data and model files (if not tracked)
-ML_Model/
-*.pkl
-*.csv
-*.json
 
 # Ignore system files
 .DS_Store
