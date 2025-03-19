@@ -1,8 +1,9 @@
+numpy==1.26.4
 fastapi
 uvicorn
 joblib
 pandas
-numpy
 fuzzywuzzy
 python-Levenshtein
 scikit-learn
+scikit-surprise
